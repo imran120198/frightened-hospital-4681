@@ -1,0 +1,44 @@
+.main{
+    width: 90%;
+    border: 1px solid red;
+    margin: auto;
+}
+.firstSection{
+    height: fit-content;
+    margin-top: 15px;
+}
+
+.firstSection > div{
+    height: 650px;
+    width: 100%;
+    margin: auto;
+}
+
+.firstSection > div > img{
+    height: fit-content;
+    cursor: pointer;
+    height: 650px;
+    width: 85%;
+}
+
+.secondSection{
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.secondSection > div{
+    height: fit-content;
+}
+
+.secondSection > div > h1{
+    font-size: 15px;
+    text-align: center;
+}
+
+.secondSection_2div{
+    height: 375px;
+    display: flex;
+}
+
