@@ -1,0 +1,47 @@
+@media screen and (max-width: 640px) {
+    .announceBar {
+      display: none;
+    }
+    #pickupBanner {
+      display: none;
+    }
+    #searchBar {
+      display: none;
+    }
+    #searchIcon {
+      display: none;
+    }
+    #arCounter {
+      display: none;
+    }
+    .catNavar{
+        display: none;
+    }
+    .divsho{
+        justify-content: center;
+        box-shadow: none;
+        width: 100vh;
+        justify-content: space-between;
+    }
+    .linediv{
+        margin: auto;
+        align-items: center;
+        border: none;
+        width: 800px;
+     
+    }
+    .divlogo{
+        width: fit-content;
+    }
+    .logo{
+      width: fit-content;
+      margin-left: 50px;
+    }
+    #accImg{
+        display: none;
+        margin-left: 800px;
+    }
+    /* .acccartdiv{
+        width: 1500px;
+    } */
+  }
