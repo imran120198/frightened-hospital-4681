@@ -1,0 +1,91 @@
+.navbar {
+  width: 95%;
+  margin: auto;
+}
+
+.uppernavbar {
+  height: 40px;
+  background-color: #f2f2f2;
+}
+
+.uppernavbar_div {
+  height: 30px;
+  width: 20%;
+  display: flex;
+  padding: auto;
+  gap: 10px;
+  align-items: center;
+  margin-left: 80%;
+}
+
+.uppernavbar_div > img {
+  width: 25px;
+  height: 25px;
+}
+
+.uppernavbar_div > a {
+  font-size: 15px;
+  text-decoration: underline;
+  color: black;
+}
+
+.uppernavbar_div > a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.middlenavbar {
+  height: 60px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.middlenavbar > div:nth-child(1) {
+  height: 50px;
+  width: 80%;
+}
+
+.logo {
+  height: 30px;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 400px;
+}
+
+.middlenavbar > div:nth-child(2) {
+  gap: 5px;
+  height: 50px;
+  width: 30%;
+}
+
+.middlenavbar > div:nth-child(2) > input {
+  height: 30px;
+  width: 250px;
+  padding-left: 10px;
+  margin-top: 10px;
+  background: url(../../assets/search.svg) right no-repeat;
+  background-size: 35px;
+}
+
+.middlenavbar > div:nth-child(3) {
+  height: 40px;
+  width: 10%;
+  margin: auto;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middlenavbar > div:nth-child(3) > div {
+  width: 30%;
+}
+
+.account {
+  width: 50px;
+  height: 45px;
+}
+
+.cart > img {
+  height: 35px;
+  width: 50px;
+}
