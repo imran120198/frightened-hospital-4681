@@ -53,7 +53,9 @@ const Navbar = () => {
             src="https://www.bathandbodyworks.com/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwc847d762/images/svg-icons/UI-MyAccount.svg"
             alt="account"
           />
-          <div className="divAccHover">
+
+          {/* Account Hover */}
+          <div className="myAccountHover">
             <Link to={"/account"}>
               <div className="h-[fit-content]  mt-2 w-fit">
                 <h1 className="leading-8 px-2 text-[13px] text-[#666]">

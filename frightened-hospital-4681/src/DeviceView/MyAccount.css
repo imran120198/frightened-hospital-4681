@@ -1,16 +1,16 @@
-.MyAccount > .divAccHover {
-    border: 0.5px solid black;
-    background: white;
-    height: fit-content;
-    width: 210px;
-    position: absolute;
-    top: 145px;
-    right: 60px;
-    display:none;
-    z-index: 1000;
-    transition: 0.5s ease-in;
-  }
-  .MyAccount:hover .divAccHover{
-      display:block;
-      transition: 0.5s ease-in;
-  }
+.myAccountHover {
+  border: 0.5px solid black;
+  background: white;
+  height: fit-content;
+  width: 50px;
+  position: absolute;
+  top: 145px;
+  right: 60px;
+  display: none;
+  /* z-index: 1000; */
+  transition: 0.5s ease-in;
+}
+.MyAccount:hover .myAccountHover {
+  display: block;
+  transition: 0.5s ease-in;
+}
