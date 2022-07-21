@@ -196,6 +196,10 @@ const Home = () => {
       </div>
       {/* section 8 end */}
 
+      <div>
+        <img style={{width:"100%",marginTop:"40px"}} src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw2874cfd1/images/Summer2022/xcat_mens-shop_su1_hb.jpg?yocs=s_" />
+      </div>
+
       {/* section 9 start */}
       <div className={styles.ninesection}>
         <div>
