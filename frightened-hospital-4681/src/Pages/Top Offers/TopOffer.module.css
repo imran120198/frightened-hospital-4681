@@ -1,0 +1,43 @@
+.topoffer {
+  margin: auto;
+  width: 80%;
+  height: 1000px;
+}
+
+.topoffer > div {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.offerdiv {
+  width: 20%;
+  height: 400px;
+  margin: auto;
+}
+
+.offerdiv > img {
+  width: 100%;
+  height: 250px;
+}
+
+.offerdiv > p,
+h3 {
+  margin-top: -10px;
+}
+
+.offerbutton > button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  width: 70%;
+  padding: auto;
+}
+
+.para {
+  width: 40%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 40px;
+}
