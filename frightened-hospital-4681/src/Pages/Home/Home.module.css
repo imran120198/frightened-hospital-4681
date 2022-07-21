@@ -1,44 +1,185 @@
-.main{
+.main {
+  width: 90%;
+  margin: auto;
+}
+.firstSection {
+  height: fit-content;
+  margin-top: 15px;
+}
+
+.firstSection > div {
+  height: 650px;
+  width: 100%;
+  margin: auto;
+}
+
+.firstSection > div > img {
+  height: fit-content;
+  cursor: pointer;
+  height: 650px;
+  width: 85%;
+}
+
+.secondSection > img {
+  width: 90%;
+  height: 350px;
+}
+
+.thirdsection {
+  width: 90%;
+  height: 650px;
+}
+
+.foursection {
+  height: 400px;
+  margin-top: 20px;
+}
+
+.fourSubsection {
+  height: 250px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.fourSubsection > div {
+  height: 200px;
+  width: 14%;
+  margin: auto;
+  color: black;
+}
+
+.fourSubsection > div > img {
+  width: 100%;
+  height: 80%;
+}
+
+.fivesection {
+  margin-top: -80px;
+  text-align: center;
+}
+
+.fivesection > p {
+  margin-top: -20px;
+}
+
+.fivesection > button {
+  background-color: black;
+  color: white;
+  height: 60px;
+  width: 250px;
+  font-size: 18px;
+  padding: auto;
+}
+
+.sixsection {
+  height: 480px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.sixsection > div {
+  width: 50%;
+}
+
+.sixsubsection {
+  display: flex;
+}
+
+.sixsubsection > div {
+  width: 48%;
+  height: 320px;
+  margin: auto;
+}
+
+.sub_subsection {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sub_subsection > div > button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  padding: auto;
+}
+
+.sevensection {
+  height: 500px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.sevensection > div {
+  height: 100%;
+  width: 50%;
+}
+
+.sevensection > div > img {
+  height: 82%;
+  width: 95%;
+}
+
+.eightsection {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.ninesection {
+  margin-top: 30px;
+  height: 320px;
+}
+
+.ninesubsection {
+  display: flex;
+}
+
+.ninesubsection > div {
+  height: 220px;
+  width: 15%;
+  margin: auto;
+}
+
+.ninesubsection > div > img {
+  height: 80%;
+  width: 100%;
+}
+
+.tensection{
+    width: 30%;
+    display: flex;
+    margin: auto;
+    font-size: 18px;
+    font-family: trendsansw05-one,Arial,sans-serif;
+}
+
+.tensection > img{
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.elevensection{
+    height: 300px;
     width: 90%;
-    border: 1px solid red;
     margin: auto;
-}
-.firstSection{
-    height: fit-content;
-    margin-top: 15px;
-}
-
-.firstSection > div{
-    height: 650px;
-    width: 100%;
-    margin: auto;
-}
-
-.firstSection > div > img{
-    height: fit-content;
-    cursor: pointer;
-    height: 650px;
-    width: 85%;
-}
-
-.secondSection{
-    height: 450px;
-    width: 500px;
-    margin: auto;
-    background-color: whitesmoke;
-}
-
-.secondSection > div{
-    height: fit-content;
-}
-
-.secondSection > div > h1{
-    font-size: 15px;
-    text-align: center;
-}
-
-.secondSection_2div{
-    height: 375px;
     display: flex;
 }
 
+.elevensection > div{
+    border: 2px dotted black;
+    width: 20%;
+    margin: auto;
+}
+
+.elevensection > div > img{
+    height: 100%;
+    width: 100%;
+}
+
+.twelvesection{
+    width: 70%;
+    margin: auto;
+}

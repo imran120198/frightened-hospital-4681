@@ -1,7 +1,7 @@
 export const TodaysTopOfferSlider = [
   {
     id: "ar1",
-    offerName: "Limited time only! Online only!",
+    offerName: "Today only!",
     pName: "Spring Gift Bundle",
     discount: "$40 with any $40 purchase",
     limit: "Limit 1",
