@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Home from "../Pages/Home/Home";
 import Footer from "../Components/Footer/Footer";
 import TopOffer from "../Pages/Top Offers/TopOffers";
+import { ALLShop_body } from "../Pages/Body Care/Shop_body";
 
 const AllRoutes = () => {
   return (
@@ -12,8 +13,8 @@ const AllRoutes = () => {
       <Categories />
       <Home />
       <Footer/> */}
-      <TopOffer/>
-      
+      {/* <TopOffer/> */}
+      <ALLShop_body />
     </div>
   );
 };
