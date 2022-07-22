@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import "./first.css"
+import "./first.css";
 import { shop_body } from "./firstshop";
 import Navbar from "../../Components/Navbar/Navbar";
 import Categories from "../../Components/Categoris/Categories";
 import Footer from "../../Components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
+import { Sidebar } from "../../Components/SideBar/Sidebar";
 
 export const ALLShop_body = () => {
   let navigate = useNavigate();
@@ -43,7 +44,7 @@ export const ALLShop_body = () => {
         }}
       >
         <div className="anTop">
-          <h1 className="anTit">All Body Care</h1>
+          <h2 className="anTit">All Body Care</h2>
         </div>
       </div>
 
@@ -59,27 +60,38 @@ export const ALLShop_body = () => {
       </div>
 
       {/* Cards */}
-      <div className="anMainCard">
-        {data.map((item) => {
-          return (
-            <div className="anCard" key={item.id}>
-              <center>
-                <img style={{ height: "200px" }} src={item.pImg} alt="Image" />
-                <b className="anBold">{item.category}</b>
-                <br />
-                <b>{item.name}</b>
-                <h4 className="anCat1">{item.category1}</h4>
-                <br />
-                <h2 className="anAmount">${item.Amount}</h2>
-                <button onClick={() => handleClick(item)} className="anButn">
-                  VIEW
-                </button>
-                <h2>⭐⭐⭐⭐ ({item.Rating})</h2>
-              </center>
-            </div>
-          );
-        })}
+      <div style={{display:"flex"}}>
+        <div className="sidebar">
+          <Sidebar/>
+        </div>
+        <div className="anMainCard">
+          {data.map((item) => {
+            return (
+              <div className="anCard" key={item.id}>
+                <center>
+                  <img
+                    style={{ height: "200px",width:"40%" }}
+                    src={item.pImg}
+                    alt="Image"
+                  />
+                  <br />
+                  <b className="anBold">{item.category}</b>
+                  <br />
+                  <b style={{marginBottom:"20px"}}>{item.name}</b>
+                  <h4 className="anCat1">{item.category1}</h4>
+                  <br />
+                  <h2 className="anAmount">${item.Amount}</h2>
+                  <button onClick={() => handleClick(item)} className="anButn">
+                    VIEW
+                  </button>
+                  <h2>⭐⭐⭐⭐ ({item.Rating})</h2>
+                </center>
+              </div>
+            );
+          })}
+        </div>
       </div>
+
       <Footer />
     </div>
   );

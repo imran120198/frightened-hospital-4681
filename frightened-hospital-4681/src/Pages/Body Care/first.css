@@ -20,13 +20,21 @@
 }
 .anCard {
   margin: 1rem;
-  /* border: 1px solid rgb(155, 155, 221); */
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
+
+.card {
+  border: 1px solid red;
+  width: 80%;
+}
+
+.sidebar{
+  width: 20%;
+}
 .anMainCard {
   margin: 1rem;
-  /* border: 1px solid rgb(5, 5, 5); */
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0.1rem;
@@ -42,6 +50,7 @@
 }
 .anCat1 {
   font-size: 0.9rem;
+  margin-bottom: -20px;
 }
 .anAmount {
   font-size: 1rem;
@@ -53,9 +62,8 @@
   color: white;
   border: none;
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin: auto;
   font-size: 0.8rem;
-  word-spacing: 0.1rem;
   width: 100%;
 }
 .anButn:hover {
