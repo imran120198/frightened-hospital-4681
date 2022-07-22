@@ -8,6 +8,7 @@ import { ALLShop_body } from "../Pages/Body Care/Shop_body";
 import { Sidebar } from "../Components/SideBar/Sidebar";
 import { Candle } from "../Pages/Candles/Candle";
 import HomeFragrance from "../Pages/Home fragrance/HomeFragrance";
+import AllHandSoaps from "../Pages/Hand/Hand";
 
 const AllRoutes = () => {
   return (
@@ -19,7 +20,8 @@ const AllRoutes = () => {
       {/* <TopOffer/> */}
       {/* <ALLShop_body /> */}
       {/* <Candle /> */}
-      <HomeFragrance />
+      {/* <HomeFragrance /> */}
+      <AllHandSoaps />
     </div>
   );
 };
