@@ -6,6 +6,7 @@ import Footer from "../Components/Footer/Footer";
 import TopOffer from "../Pages/Top Offers/TopOffers";
 import { ALLShop_body } from "../Pages/Body Care/Shop_body";
 import { Sidebar } from "../Components/SideBar/Sidebar";
+import { Candle } from "../Pages/Candles/Candle";
 
 const AllRoutes = () => {
   return (
@@ -15,7 +16,8 @@ const AllRoutes = () => {
       <Home />
       <Footer/> */}
       {/* <TopOffer/> */}
-      <ALLShop_body />
+      {/* <ALLShop_body /> */}
+      <Candle />
     </div>
   );
 };
