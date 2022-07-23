@@ -10,6 +10,7 @@ import { Candle } from "../Pages/Candles/Candle";
 import HomeFragrance from "../Pages/Home fragrance/HomeFragrance";
 import AllHandSoaps from "../Pages/Hand/Hand";
 import Gift from "../Pages/Gift/Gift";
+import Aroma from "../Pages/Aroma/Aroma";
 
 const AllRoutes = () => {
   return (
@@ -23,7 +24,8 @@ const AllRoutes = () => {
       {/* <Candle /> */}
       {/* <HomeFragrance /> */}
       {/* <AllHandSoaps /> */}
-      <Gift/>
+      {/* <Gift/> */}
+      <Aroma />
     </div>
   );
 };
