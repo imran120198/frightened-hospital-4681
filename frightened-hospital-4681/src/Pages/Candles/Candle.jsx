@@ -31,7 +31,6 @@ export const Candle = () => {
   return (
     <div>
       <Navbar />
-      <Categories />
       {/* Top of the page */}
       <div
         className="flex h-fit justify-between"
@@ -95,7 +94,7 @@ export const Candle = () => {
                   <br />
                   <h2 className="anAmount">${item.Amount}</h2>
                   <button onClick={() => handleClick(item)} className="anButn">
-                    VIEW
+                  ADD TO BAG
                   </button>
                   <h2>⭐⭐⭐⭐ ({item.Rating})</h2>
                 </center>

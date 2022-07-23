@@ -32,7 +32,6 @@ export const ALLShop_body = () => {
   return (
     <div>
       <Navbar />
-      <Categories />
       {/* Top of the page */}
       <div
         className="flex h-fit justify-between"
@@ -82,7 +81,7 @@ export const ALLShop_body = () => {
                   <br />
                   <h2 className="anAmount">${item.Amount}</h2>
                   <button onClick={() => handleClick(item)} className="anButn">
-                    VIEW
+                  ADD TO BAG
                   </button>
                   <h2>⭐⭐⭐⭐ ({item.Rating})</h2>
                 </center>

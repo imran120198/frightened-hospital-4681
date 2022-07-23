@@ -1,0 +1,178 @@
+#ricon{
+    font-family: Trade Gothic W01 Light,Arial,sans-serif;
+    width: 90% ;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.ribanner{
+    width: 955px;
+    height: 113px;
+    /* border: 1px solid red; */
+    /* display: block; */
+    margin: 40px auto 40px;
+    
+   
+}
+.ribanner>img{
+    width: 955px;
+    height: 113px;
+}
+.rihead{
+    text-align: left;
+    color: #666666;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.ridivider{
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+.rimain{
+    color: #666666;
+    padding: 24px 24px 36px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: auto;
+    position: relative;
+}
+/* .rimain{
+    border: 1px solid red;
+    width: 50%;
+} */
+
+.rimain>:first-child{
+    padding: 40px 30px;
+    margin-right: 40px;
+    width: 45%;
+    /* border: 1px solid red; */
+}
+.rimain>div>h2{
+    color: #333;
+    font-weight: 400; 
+    margin-bottom: 8px; 
+}
+.rimain>div>p{
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    font-size: .875rem;
+}
+.rimain>:last-child{
+    margin-left: 40px;
+    padding: 40px 30px;
+    width: 45%;
+    /* border: 1px solid red; */
+}
+.rispace{
+    /* width: 80px; */
+    height: auto;
+    border-left: 0.5px solid #666;
+}
+
+.rior{
+    color: #666;
+    width: 37px;
+    height: 37px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: Trade Gothic W01 Light,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .52px;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 19px);
+    text-align: center;
+    line-height: 37px;
+}
+.ricall{
+    line-height: 1.6em;
+    margin: 1em 0;
+    font-family: Trade Gothic W01 Light,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-size: .875rem;
+}
+/* form{
+   
+} */
+.riinput{
+    padding:  15px 30px;
+}
+label{
+    display: block;
+    font-family: Trade Gothic W01 Light,Arial,sans-serif;
+    font-weight: 400;
+    
+    font-size: .875rem;
+    line-height: 1;
+    
+    color: #333;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.inputbox{
+    outline: none;
+    box-sizing: border-box;
+    height: 2.1875rem;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.3125rem 0.6875rem;
+    border: 1px solid #e5e5e5;
+    text-indent: 0;
+    width: 100%;
+    color: #333;
+    -webkit-appearance: none;
+    border-radius: 0;
+    letter-spacing: .25px;
+}
+.inputbox2{
+    outline: none;
+    box-sizing: border-box;
+    height: 2.1875rem;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.3125rem 0.6875rem;
+    border: 1px solid #e5e5e5;
+    text-indent: 0;
+    width: 45%;
+    color: #333;
+    -webkit-appearance: none;
+    border-radius: 0;
+    letter-spacing: .25px;
+}
+
+.riprivacy{
+    color:#333;
+    text-decoration: underline;
+    margin: 1.25em 0 1em;
+    font-size: .75rem;;
+    display: block;
+}
+.riprivacy:hover{
+    /* color:#333; */
+    text-decoration: none;
+}
+.risubmit{
+    padding: 0 2.8125em;
+    background-color: #333333;
+    font-size: .6875rem;
+    cursor: pointer;
+    line-height: 2.0625rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s ease;
+    max-height: 35px;
+    letter-spacing: .12em;
+    border-radius: 0;
+}
+.risubmit:hover{
+    background-color: #F2F2F2;
+    color: #666666;
+}

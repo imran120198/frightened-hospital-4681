@@ -32,7 +32,6 @@ const AllHandSoaps = () => {
   return (
     <div>
       <Navbar />
-      <Categories />
       {/* Top of the page */}
       <div
         className="flex h-fit justify-between"
