@@ -1,0 +1,68 @@
+.anTop{
+    font-size:20px;
+    border-bottom: 1px solid black;
+}
+.anTit{ 
+    margin-right: 650px;
+}
+.anSort{ 
+    margin: 1rem;
+    display: flex;
+    justify-content: right;
+}
+.anSortBox{ 
+    border: 3px solid black;
+    margin-left: 0.5ch;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 150px;
+}
+.anCard{ 
+    margin: 1rem;
+    /* border: 1px solid rgb(155, 155, 221); */
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    
+
+}
+.anMainCard{
+    margin: 1rem;
+    /* border: 1px solid rgb(5, 5, 5); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.1rem;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.anBold{
+    color:rgb(41, 90, 182);
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: italic;
+}
+.anCat1{
+    font-size: 0.9rem;
+}
+.anAmount{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.anBtn{
+    background-color: rgb(51, 52, 54);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    word-spacing: 0.1rem;
+    width: 100%;
+}
+.anBtn:hover {
+    background-color: #e5e5e5;
+    color: black;
+  }

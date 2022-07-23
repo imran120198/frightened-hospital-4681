@@ -9,6 +9,7 @@ import { Sidebar } from "../Components/SideBar/Sidebar";
 import { Candle } from "../Pages/Candles/Candle";
 import HomeFragrance from "../Pages/Home fragrance/HomeFragrance";
 import AllHandSoaps from "../Pages/Hand/Hand";
+import Gift from "../Pages/Gift/Gift";
 
 const AllRoutes = () => {
   return (
@@ -21,7 +22,8 @@ const AllRoutes = () => {
       {/* <ALLShop_body /> */}
       {/* <Candle /> */}
       {/* <HomeFragrance /> */}
-      <AllHandSoaps />
+      {/* <AllHandSoaps /> */}
+      <Gift/>
     </div>
   );
 };
