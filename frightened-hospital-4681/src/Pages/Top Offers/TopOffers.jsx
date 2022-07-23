@@ -8,7 +8,6 @@ const TopOffer = () => {
   return (
     <>
       <Navbar />
-      <Categories />
       <div className={styles.main}>
         {/* offers */}
         <div className={styles.topoffer}>
@@ -29,7 +28,7 @@ const TopOffer = () => {
               <p>All Full Size Body Care</p>
               <h3>Buy 3, Get 3 Free</h3>
               <p>Lowest-priced items are free</p>
-              <Link to="/handsoap">
+              <Link to="/soaps">
                 <div className={styles.offerbutton}>
                   <button>SHOP</button>
                 </div>
@@ -39,7 +38,7 @@ const TopOffer = () => {
               <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw6382bf84/images/Summer2022/sp_meadow_su3_ss.jpg?yocs=o_s_" />
               <p>Hand Soaps</p>
               <h3>5/$25</h3>
-              <Link to="/handsoap">
+              <Link to="/soaps">
                 <div className={styles.offerbutton}>
                   <button>SHOP</button>
                 </div>
@@ -71,7 +70,7 @@ const TopOffer = () => {
               <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwbe9e1de6/images/Summer2022/sn_champ-toast_sum3_0_ss.jpg?yocs=o_s_" />
               <p>Hand Sanitizer 5-Packs</p>
               <h3>$8</h3>
-              <Link to="/sanitizer">
+              <Link to="/soaps">
                 <div className={styles.offerbutton}>
                   <button>SHOP</button>
                 </div>
@@ -84,7 +83,10 @@ const TopOffer = () => {
 
         {/* banner */}
         <div>
-          <img style={{marginTop:"20px", marginBottom:"30px", width:"42%"}} src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwa13b1ecf/images/loyalty/1650-evergreen-sp22_sb.jpg?yocs=o_s_" />
+          <img
+            style={{ marginTop: "20px", marginBottom: "30px", width: "42%" }}
+            src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwa13b1ecf/images/loyalty/1650-evergreen-sp22_sb.jpg?yocs=o_s_"
+          />
         </div>
 
         {/* <---:start paragraph:---> */}

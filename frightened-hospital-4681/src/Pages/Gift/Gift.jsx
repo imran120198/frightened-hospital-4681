@@ -30,7 +30,6 @@ const Gift = () => {
   return (
     <>
       <Navbar />
-      <Categories />
       {/* Top of the page */}
       <div
         style={{

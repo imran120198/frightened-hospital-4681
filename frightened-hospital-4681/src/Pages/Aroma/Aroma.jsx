@@ -31,7 +31,6 @@ const Aroma = () => {
   return (
     <>
       <Navbar />
-      <Categories />
       <div
         className="flex h-fit justify-between"
         style={{
@@ -92,7 +91,7 @@ const Aroma = () => {
                   <br />
                   <h2 className="anAmount">${item.Amount}</h2>
                   <button onClick={() => handleClick(item)} className="anButn">
-                    VIEW
+                    ADD TO BAG
                   </button>
                   <h2>⭐⭐⭐⭐ ({item.Rating})</h2>
                 </center>

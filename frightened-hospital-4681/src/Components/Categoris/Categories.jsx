@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Categories.module.css";
 import { Link } from "react-router-dom";
 const Categories = () => {
   return (
@@ -12,36 +13,30 @@ const Categories = () => {
       }}
     >
       <div>
-        <Link to={"/topoffers"} />
-        TOP OFFERS
+        <Link to="/topoffers">
+          <div className={styles.cat}>TOP OFFERS</div>
+        </Link>
       </div>
       <div>
-        <Link to={"/topoffers"} />
-        BODY CARE
+        <Link to="/bodycare">BODY CARE</Link>
       </div>
       <div>
-        <Link to={"/topoffers"} />
-        CANDLES
+        <Link to="/candle">CANDLES</Link>
       </div>
       <div>
-        <Link to={"/topoffers"} />
-        HOME FRAGRANCES
+        <Link to="/fragrance">HOME FRAGRANCES</Link>
       </div>
       <div>
-        <Link to={"/topoffers"} />
-        HAND SOAPS & SANITIZERS
+        <Link to="/soaps">HAND SOAPS & SANITIZERS</Link>
       </div>
       <div>
-        <Link to={"/topoffers"} />
-        MEN'S
+        <Link to="/">MEN'S</Link>
       </div>
       <div>
-        <Link to={"/topoffers"} />
-        GIFTS
+        <Link to="/gifts">GIFTS</Link>
       </div>
       <div>
-        <Link to={"/topoffers"} />
-        NEW & NOW
+        <Link to="/newandnow">NEW & NOW</Link>
       </div>
     </div>
   );

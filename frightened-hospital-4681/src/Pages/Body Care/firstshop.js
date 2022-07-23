@@ -35,7 +35,7 @@ export const shop_body = [
     id: "4",
     name: "Wicked Vanilla Woods",
     category1: "Fine Fragrance Mist",
-    Amount: "$16.50",
+    Amount: "16.50",
     Rating: "4",
     desc: "Mix & Math Full-Size: Buy 3, Get 3 Free or Buy 2, Get 1 Free",
   },

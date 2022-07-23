@@ -6,6 +6,7 @@ import styles from "./Navbar.module.css";
 import location_on from "../../assets/UpperNavbar/location_on.svg";
 import { CartContext } from "../../Context/CartProvider";
 import shopping_bag from "../../assets/shopping_bag.svg";
+import Categories from "../Categoris/Categories";
 
 const Navbar = () => {
   const cart = useContext(CartContext);
@@ -46,16 +47,20 @@ const Navbar = () => {
         </div>
 
         {/* -----account and cart------- */}
-        <div className="w-[50px] h-[45px] rounded-full MyAccount">
-          <img
-            className="w-[50px] h-[45px] cursor-pointer"
-            id="accImg"
-            src="https://www.bathandbodyworks.com/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwc847d762/images/svg-icons/UI-MyAccount.svg"
-            alt="account"
-          />
+        <div style={{ width: "10%" }}>
+          <div>
+            <Link to="/account">
+              <img
+                style={{ height: "45px" }}
+                id="accImg"
+                src="https://www.bathandbodyworks.com/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwc847d762/images/svg-icons/UI-MyAccount.svg"
+                alt="account"
+              />
+            </Link>
+          </div>
 
           {/* Account Hover */}
-          <div className="myAccountHover">
+          {/* <div className="myAccountHover">
             <Link to={"/account"}>
               <div className="h-[fit-content]  mt-2 w-fit">
                 <h1 className="leading-8 px-2 text-[13px] text-[#666]">
@@ -93,12 +98,15 @@ const Navbar = () => {
                 {userName ? "Logout" : ""}
               </h1>
             </div>
-          </div>
+          </div> */}
           <div className={styles.cart}>
-            <img src={shopping_bag} alt="shopping bag"/>
+            <Link to="/cart">
+              <img src={shopping_bag} alt="shopping bag" />
+            </Link>
           </div>
         </div>
       </div>
+      <Categories />
     </div>
   );
 };
