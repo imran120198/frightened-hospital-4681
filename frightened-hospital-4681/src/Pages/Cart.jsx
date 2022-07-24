@@ -7,6 +7,7 @@ import { CartContext } from "../Context/CartProvider";
 import Navbar from "../Components/Navbar/Navbar";
 import Categories from "../Components/Categoris/Categories";
 import Footer from "../Components/Footer/Footer";
+import { Center } from "@chakra-ui/react";
 
 const Cart = () => {
   const { setCartLength } = useContext(CartContext);
@@ -75,17 +76,14 @@ const Cart = () => {
     return (
       <>
         <Navbar />
-        <Categories />
         <div className="p-[20px]">
-          <Link to={"/"}>
+          <Link style={{ color: "black" }} to={"/"}>
             <h1>
               <i
                 className="bx bx-left-arrow-alt"
-                style={{ color: "#7a7575", fontSize: "12px" }}
+                style={{ fontSize: "12px" }}
               ></i>{" "}
-              <span className="text-[#7a7575] underline text-[12px]">
-                CONTINUE SHOPPING
-              </span>
+              <span className="text-[12px]">CONTINUE SHOPPING</span>
             </h1>
           </Link>
         </div>
@@ -112,7 +110,7 @@ const Cart = () => {
   } else {
     return (
       <>
-        <Navbar/>
+        <Navbar />
         <div className="p-[20px]">
           <Link to={"/"}>
             <h1>
@@ -120,9 +118,7 @@ const Cart = () => {
                 className="bx bx-left-arrow-alt"
                 style={{ color: "#7a7575", fontSize: "12px" }}
               ></i>{" "}
-              <span className="text-[#7a7575] underline text-[12px]">
-                CONTINUE SHOPPING
-              </span>
+              <span className="underline text-[12px]">CONTINUE SHOPPING</span>
             </h1>
           </Link>
         </div>
@@ -143,11 +139,8 @@ const Cart = () => {
               style={{ borderRadius: "6px" }}
             >
               <Link to={"/paypal"}>
-                <button
-                  className="h-full w-full bg-yellow-400 hover:bg-[#e5e5e5]"
-                  style={{ borderRadius: "6px", transition: ".2s ease-in" }}
-                >
-                  <img className="h-[20px] m-auto" src={paypal} alt="paypal" />
+                <button style={{ borderRadius: "6px" }}>
+                  <img style={{ height: "20px" }} src={paypal} alt="paypal" />
                 </button>
               </Link>
             </div>
@@ -157,10 +150,8 @@ const Cart = () => {
             >
               <Link to={"/cod"}>
                 <button
-                  className="h-full w-full"
                   style={{
                     borderRadius: "6px",
-                    transition: ".2s ease-in",
                     backgroundColor: "green",
                   }}
                 >
@@ -207,82 +198,61 @@ const Cart = () => {
             <img className="h-full w-full" src={shippingpick} alt="" />
           </div>
         </section>
-        <section className="w-[955px] m-auto mt-4 h-[fit-content] p-1 bg-[whitesmoke] flex justify-between">
-          <div className="w-fit">
-            <h1 className="text-black text-center font-semibold">ITEM</h1>
-          </div>
-          <div className="w-fit">
-            <h1 className="text-black text-center font-semibold">PRICE</h1>
-          </div>
-          <div className="w-fit">
-            <h1 className="text-black text-center font-semibold">QTY</h1>
-          </div>
-          <div className="w-fit">
-            <h1 className="text-black text-center font-semibold">
-              TOTAL PRICE
-            </h1>
-          </div>
-        </section>
         {cart.map((items) => {
           return (
-            <section
-              key={items.id}
-              className="w-[955px] m-auto h-[fit-content] flex p-5"
-              style={{ borderBottom: "1.5px solid black" }}
+            <div
+              style={{
+                display: "flex",
+                height: "200px",
+                width: "75%",
+                margin: "auto",
+                marginTop: "10px",
+              }}
             >
-              <div className="h-[180px] w-[140px]">
-                <img
-                  className="h-[180px] w-[140px] p-2"
-                  src={items.pImg}
-                  alt=""
-                />
+              <div style={{ display: "flex", marginRight: "20px" }}>
+                <img style={{ height: "200px" }} src={items.pImg} alt="" />
               </div>
-              <div className="w-[150px] h-[fit-content]">
-                <div className="h-[fit-content] p-2">
-                  <h1 className="text-[#333333] text-[16px]">{items.name}</h1>
-                </div>
-                <div className="h-[fit-content] p-1">
-                  <h1 className="text-[#666666] text-[10px]">
-                    {items.category1}
-                  </h1>
-                </div>
+              <div
+                style={{ marginRight: "20px", height: "30px", margin: "auto" }}
+              >
+                <h3>{items.name}</h3>
               </div>
-              <div className="w-[86px] h-[fit-content] p-2">
-                <h1 className="text-center">$ {items.Amount}</h1>
+              <div
+                style={{ marginRight: "20px", height: "30px", margin: "auto" }}
+              >
+                <h3>{items.category1}</h3>
               </div>
-              <div className="h-[65px] w-[130px] ml-[140px] flex">
-                <div className=" w-[40px] h-fit m-auto bg-[whitesmoke]">
-                  <button
-                    className=" h-fit w-full text-[30px]"
-                    onClick={() => handleDecrement(items)}
-                  >
-                    -
-                  </button>
-                </div>
-                <div className=" w-[40px] h-fit text-center m-auto">
+              <div
+                style={{ marginRight: "20px", height: "30px", margin: "auto" }}
+              >
+                <h3>${items.Amount}</h3>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  marginRight: "20px",
+                  height: "30px",
+                  margin: "auto",
+                }}
+              >
+                <button onClick={() => handleDecrement(items)}>-</button>
+                <p style={{ fontWeight: "bold", margin: "auto" }}>
                   {items.quantity}
-                </div>
-                <div className=" w-[40px] h-fit m-auto bg-[whitesmoke]">
-                  <button
-                    className=" h-fit w-full text-[30px]"
-                    onClick={() => handleIncrement(items)}
-                  >
-                    +
-                  </button>
-                </div>
+                </p>
+                <button onClick={() => handleIncrement(items)}>+</button>
               </div>
-              <div className="w-[70px]  h-[fit-content] ml-[220px]">
-                <h1 className="text-center">$ {items.Amount}</h1>
-              </div>
-              <div className="mt-1 w-[15px] ml-[5px] h-[15px]">
+              <div
+                style={{ marginRight: "20px", height: "30px", margin: "auto" }}
+              >
                 <img
+                  style={{ height: "20px" }}
                   onClick={() => removeItem(items.id)}
                   className="cursor-pointer"
                   src={close}
                   alt=""
                 />
               </div>
-            </section>
+            </div>
           );
         })}
         <section
@@ -341,11 +311,7 @@ const Cart = () => {
                     className="h-full w-full bg-yellow-400 hover:bg-[#e5e5e5]"
                     style={{ borderRadius: "6px", transition: ".2s ease-in" }}
                   >
-                    <img
-                      className="h-[20px] m-auto"
-                      src={paypal}
-                      alt="paypal"
-                    />
+                    <img style={{ height: "20px" }} src={paypal} alt="paypal" />
                   </button>
                 </Link>
               </div>
@@ -360,7 +326,7 @@ const Cart = () => {
                     }}
                   >
                     <i className="bx bxs-lock " style={{ color: "#ffff" }}></i>{" "}
-                    <span className="text-white font-semibold">CHECKOUT</span>
+                    <span style={{ fontWeight: "bold" }}>CHECKOUT</span>
                   </button>
                 </Link>
               </div>

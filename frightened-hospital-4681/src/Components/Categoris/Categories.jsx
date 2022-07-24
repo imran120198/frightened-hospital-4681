@@ -13,30 +13,53 @@ const Categories = () => {
       }}
     >
       <div>
-        <Link to="/topoffers">
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/topoffers"
+        >
           <div className={styles.cat}>TOP OFFERS</div>
         </Link>
       </div>
       <div>
-        <Link to="/bodycare">BODY CARE</Link>
+        <Link style={{ textDecoration: "none", color: "black" }} to="/bodycare">
+          BODY CARE
+        </Link>
       </div>
       <div>
-        <Link to="/candle">CANDLES</Link>
+        <Link style={{ textDecoration: "none", color: "black" }} to="/candle">
+          CANDLES
+        </Link>
       </div>
       <div>
-        <Link to="/fragrance">HOME FRAGRANCES</Link>
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/fragrance"
+        >
+          HOME FRAGRANCES
+        </Link>
       </div>
       <div>
-        <Link to="/soaps">HAND SOAPS & SANITIZERS</Link>
+        <Link style={{ textDecoration: "none", color: "black" }} to="/soaps">
+          HAND SOAPS & SANITIZERS
+        </Link>
       </div>
       <div>
-        <Link to="/">MEN'S</Link>
+        <Link style={{ textDecoration: "none", color: "black" }} to="/">
+          MEN'S
+        </Link>
       </div>
       <div>
-        <Link to="/gifts">GIFTS</Link>
+        <Link style={{ textDecoration: "none", color: "black" }} to="/gifts">
+          GIFTS
+        </Link>
       </div>
       <div>
-        <Link to="/newandnow">NEW & NOW</Link>
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/newandnow"
+        >
+          NEW & NOW
+        </Link>
       </div>
     </div>
   );
