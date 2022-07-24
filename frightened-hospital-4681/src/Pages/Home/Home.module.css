@@ -3,26 +3,14 @@
   margin: auto;
 }
 .firstSection {
-  height: fit-content;
-  margin-top: 15px;
-}
-
-.firstSection > div {
-  height: 650px;
+  margin-top: 25px;
   width: 100%;
-  margin: auto;
 }
 
-.firstSection > div > img {
-  height: fit-content;
-  cursor: pointer;
-  height: 650px;
-  width: 85%;
-}
-
-.secondSection > img {
-  width: 90%;
+.secondSection {
+  width: 100%;
   height: 350px;
+  
 }
 
 .thirdsection {
