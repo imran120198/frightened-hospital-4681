@@ -14,7 +14,8 @@ const Home = () => {
         <section>
           <div>
             <Link to="/">
-              <img className={styles.firstSection}
+              <img
+                className={styles.firstSection}
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw75f33d97/images/Summer2022/13503W_su3_hm_0.gif?yocs=s_"
                 alt="banner1"
               />
@@ -44,7 +45,7 @@ const Home = () => {
 
         {/* section 3 start */}
         <div>
-          <Link  to="/fragrance">
+          <Link to="/fragrance">
             <img
               className={styles.thirdsection}
               src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw61a0fa39/images/Summer2022/diff_halloween_su3_hm_v2.jpg?yocs=s_"
@@ -67,42 +68,54 @@ const Home = () => {
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwc5ed4c78/images/Summer2022/fbc_poppy_su3_vn.jpg?yocs=o_s_"
                 alt="bodycare"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/bodycare">Body Care</Link>
+              <Link style={{ color: "black" }} to="/bodycare">
+                Body Care
+              </Link>
             </div>
             <div>
               <img
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwb2954ee6/images/Summer2022/cndl_phytogaia_su3_vn.jpg?yocs=o_s_"
                 alt="candle"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/candle">Candle</Link>
+              <Link style={{ color: "black" }} to="/candle">
+                Candle
+              </Link>
             </div>
             <div>
               <img
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwb4498177/images/Summer2022/diff_bts_su3_vn.jpg?yocs=o_s_"
                 alt="wallflower"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/fragrance">Wallflower</Link>
+              <Link style={{ color: "black" }} to="/fragrance">
+                Wallflower
+              </Link>
             </div>
             <div>
               <img
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw8ab0ee58/images/Summer2022/sp_meadow_su3_vn.jpg?yocs=o_s_"
                 alt="handsoaps"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/soaps">Hand Soaps</Link>
+              <Link style={{ color: "black" }} to="/soaps">
+                Hand Soaps
+              </Link>
             </div>
             <div>
               <img
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw556bcddf/images/Spring2022/obc_atviznav_0_sp1_vn.jpg?yocs=o_s_"
                 alt="aromatherapy"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/fragrance">Aromatherapy</Link>
+              <Link style={{ color: "black" }} to="/fragrance">
+                Aromatherapy
+              </Link>
             </div>
             <div>
               <img
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwd1fd2fb9/images/Summer2022/obc_mens-shop-fday_su1_vn.jpg?yocs=o_s_"
                 alt="mens"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/mens">Shop Men's</Link>
+              <Link style={{ color: "black" }} to="/mens">
+                Shop Men's
+              </Link>
             </div>
           </div>
         </div>
@@ -112,7 +125,14 @@ const Home = () => {
         <div className={styles.fivesection}>
           <h2>Fall preview must-haves!</h2>
           <p>Bring that little-bit-of-fall feeling to every room and routine</p>
-          <button><Link style={{textDecoration:"none",color:"white"}} to="/newandnow">SHOP NEW ARRIVALS</Link></button>
+          <button>
+            <Link
+              style={{ textDecoration: "none", color: "white" }}
+              to="/newandnow"
+            >
+              SHOP NEW ARRIVALS
+            </Link>
+          </button>
         </div>
         {/* section 5 end */}
 
@@ -146,7 +166,14 @@ const Home = () => {
                   $7.50
                 </p>
                 <div>
-                  <button><Link style={{textDecoration:"none",color:"white"}} to="/soaps">ADD TO BAG</Link></button>
+                  <button>
+                    <Link
+                      style={{ textDecoration: "none", color: "white" }}
+                      to="/soaps"
+                    >
+                      ADD TO BAG
+                    </Link>
+                  </button>
                 </div>
               </div>
             </div>
@@ -167,7 +194,14 @@ const Home = () => {
                   $15.50
                 </p>
                 <div>
-                  <button><Link style={{textDecoration:"none",color:"white"}} to="/candle">ADD TO BAG</Link></button>
+                  <button>
+                    <Link
+                      style={{ textDecoration: "none", color: "white" }}
+                      to="/candle"
+                    >
+                      ADD TO BAG
+                    </Link>
+                  </button>
                 </div>
               </div>
             </div>
@@ -183,7 +217,16 @@ const Home = () => {
               alt="seven"
             />
             <p>In time for back to school: this new formula</p>
-            <Link style={{textDecoration:"none", color:"black",fontWeight:"bold"}} to="/handsoaps">Shop Hand Soaps</Link>
+            <Link
+              style={{
+                
+                color: "black",
+                fontWeight: "bold",
+              }}
+              to="/handsoaps"
+            >
+              Shop Hand Soaps
+            </Link>
           </div>
           <div>
             <img
@@ -191,7 +234,16 @@ const Home = () => {
               alt="seven"
             />
             <p>Finally fall for floral with NEW Poppy</p>
-            <Link style={{textDecoration:"none", color:"black" ,fontWeight:"bold"}} to="/bodycare">Shop Body Care</Link>
+            <Link
+              style={{
+                
+                color: "black",
+                fontWeight: "bold",
+              }}
+              to="/bodycare"
+            >
+              Shop Body Care
+            </Link>
           </div>
         </div>
         {/* section 7 end */}
@@ -225,33 +277,45 @@ const Home = () => {
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw8f6e14ad/images/Spring2022/xcat_mwts-bopis_sp2_vn.jpg?yocs=o_s_"
                 alt="nine"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/">Shop - it's fast, free, easy</Link>
+              <Link style={{ color: "black" }} to="/">
+                Shop - it's fast, free, easy
+              </Link>
             </div>
             <div>
               <img
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw644e724c/images/Spring2022/xcat_mwts-sms_sp2_vn.jpg?yocs=o_s_"
                 alt="nine"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/">Sign up for texts</Link>
+              <Link style={{color: "black" }} to="/">
+                Sign up for texts
+              </Link>
             </div>
             <div>
               <img
                 src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw41a3328c/images/Spring2022/xcat_mwts-email_sp2_vn.jpg?yocs=o_s_"
                 alt="nine"
               />
-              <Link style={{textDecoration:"none", color:"black"}} to="/">Sign up for emails</Link>
+              <Link style={{  color: "black" }} to="/">
+                Sign up for emails
+              </Link>
             </div>
             <div>
               <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw611329aa/images/Spring2022/xcat_mwts-autorefresh_sp2_vn.png?yocs=o_s_" />
-              <Link style={{textDecoration:"none", color:"black"}} to="/">Check out Auto Refresh</Link>
+              <Link style={{ color: "black" }} to="/">
+                Check out Auto Refresh
+              </Link>
             </div>
             <div>
               <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw7500932b/images/Spring2022/xcat_mwts-dei_sp2_vn.jpg?yocs=o_s_" />
-              <Link style={{textDecoration:"none", color:"black"}} to="/">See how everyone belongs</Link>
+              <Link style={{ color: "black" }} to="/">
+                See how everyone belongs
+              </Link>
             </div>
             <div>
               <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw4dd3c5f1/images/Spring2022/xcat_mwts-returns_sp2_vn.jpg?yocs=o_s_" />
-              <Link style={{textDecoration:"none", color:"black"}} to="/">See our return policy</Link>
+              <Link style={{  color: "black" }} to="/">
+                See our return policy
+              </Link>
             </div>
           </div>
         </div>
