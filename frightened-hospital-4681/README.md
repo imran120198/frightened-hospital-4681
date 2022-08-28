@@ -15,7 +15,7 @@ Bath & Body Works, LLC. is an American retail store chain which sells soaps, lot
 * Chakra UI
 * React-toastify
 
-# Sceensort
+# Sceenshort
 
 ![Screenshot (682)](https://user-images.githubusercontent.com/99397606/180635144-da13f568-a70b-42bf-aff6-00d1a29786fe.png)
 ![Screenshot (683)](https://user-images.githubusercontent.com/99397606/180635152-9497e975-e36d-4c91-a7d1-b105371af3d1.png)
